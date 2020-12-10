@@ -252,3 +252,9 @@ main #slide {
   }
 }
 
+main #fixed-bg {
+  background: url('../images/fixed-bg.jpg');
+  @include bg-image;
+  @include bg-image-fixed(650px)
+}
+

@@ -262,3 +262,12 @@ main #slide .col-lg-10 .box-main .box-img {
 main #slide .col-lg-10 .box-main .box-img img {
   width: 100%;
 }
+
+main #fixed-bg {
+  background: url("../images/fixed-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 650px;
+}
