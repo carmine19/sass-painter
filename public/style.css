@@ -117,6 +117,7 @@ main #hero .container .col-lg-5 .box-main .box-link ul li {
 main #hero .container .col-lg-5 .box-main .box-link ul li a {
   color: #fff;
   font-size: 17px;
+  text-decoration: none;
 }
 main #hero .container .col-lg-5 .box-main .box-link ul li a:before {
   content: ">";
@@ -184,4 +185,25 @@ main #hero .container .col-lg-4 .box-main .box-center p {
 main #hero .container .col-lg-4 .box-main .box-center a {
   color: #009cff;
   font-size: 12px;
+}
+
+main #menu-main {
+  background: #E6E6E6;
+}
+main #menu-main .box-menu ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 15px;
+}
+main #menu-main .box-menu ul li a {
+  padding: 15px;
+  font-size: 18px;
+  color: #989898;
+}
+main #menu-main .box-menu ul li a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #101010;
 }

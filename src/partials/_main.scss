@@ -33,9 +33,11 @@ main #hero {
 
             li {
               margin-bottom: 10px;
+
               a {
                 color: $secondary_color;
                 font-size: 17px;
+                text-decoration: none;
 
                 &:before {
                   content: '>';
@@ -138,4 +140,33 @@ main #hero {
     }
   }
 
+}
+
+main #menu-main {
+  background: #E6E6E6;
+
+  .box-menu {
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+      padding: 15px;
+
+      li {
+
+        a {
+          padding: 15px;
+          font-size: 18px;
+          color: $color_link;
+
+          &:hover {
+            @include hover-main-menu
+          }
+        }
+      }
+    }
+
+  }
 }
