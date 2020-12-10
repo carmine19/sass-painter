@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b8b22a-d61e-4211-8454-10773faa067c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/fixed-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pillar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pillar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pillar3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brushpacks-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mirror.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mirror2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mirror3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mirror4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mirror5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607606150899</updated>
       <workItem from="1607606154202" duration="6703000" />
-      <workItem from="1607617009124" duration="10515000" />
+      <workItem from="1607617009124" duration="12799000" />
     </task>
     <task id="LOCAL-00001" summary="push codice, errore sul bg">
       <created>1607617071156</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607626210354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="push pillar e seconda bg-fixed section">
+      <created>1607628227988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607628227988</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +151,7 @@
     <MESSAGE value="push overview section" />
     <MESSAGE value="push slide section" />
     <MESSAGE value="push fixed-bg section" />
-    <option name="LAST_COMMIT_MESSAGE" value="push fixed-bg section" />
+    <MESSAGE value="push pillar e seconda bg-fixed section" />
+    <option name="LAST_COMMIT_MESSAGE" value="push pillar e seconda bg-fixed section" />
   </component>
 </project>
