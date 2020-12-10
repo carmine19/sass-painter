@@ -3,9 +3,139 @@
 // hero
 
 main #hero {
-  @include bg-image;
-  min-height: 500px;
   background: url('../images/hero-painteressentials-7.jpg');
+  @include bg-image;
   color: $secondary_color;
+
+  .container {
+    padding-top: 20px;
+
+    .col-lg-5 {
+
+      .box-main {
+
+        .box-title {
+
+          h2 {
+            font-size: 26px;
+            font-weight: bold;
+          }
+        }
+
+        .box-subtitle {
+        font-size: 22px;
+        margin-top: 20px;
+      }
+
+        .box-link {
+
+          ul {
+
+            li {
+              margin-bottom: 10px;
+              a {
+                color: $secondary_color;
+                font-size: 17px;
+
+                &:before {
+                  content: '>';
+                  margin-right: 5px;
+                  color: gray;
+                }
+              }
+            }
+          }
+        }
+
+        .box-btn {
+
+          .button {
+              background: #666;
+              color: #fff;
+              text-transform: uppercase;
+              text-align: left;
+              padding: 10px 50px 10px 15px;
+              position: relative;
+              font-size: 14px;
+              width: 200px;
+
+            span {
+              display: block;
+              text-transform: capitalize;
+              font-size: 13px;
+            }
+          }
+
+        }
+      }
+    }
+
+    .col-lg-4 {
+
+      .box-main {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        position: relative;
+        height: 400px;
+
+        .box-top {
+          position: relative;
+
+          .box-text {
+            p:first-child {
+              font-size: 26px;
+              font-weight: 700;
+              margin: 0;
+            }
+
+            p:last-child {
+              text-transform: uppercase;
+              color: $color_text_gray;
+              font-size: 14px;
+            }
+
+            .btn-primary {
+              width: 126px;
+              padding: 5px 20px;
+              text-align: center;
+              margin-bottom: 40px;
+            }
+          }
+
+          .box-img {
+
+            img {
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+          }
+
+        }
+
+        .box-center {
+          padding: 10px 10px 10px 15px;
+          background: $secondary_color;
+          color: $primary_color;
+
+          h4 {
+            text-transform: uppercase;
+            font-weight: 600;
+          }
+
+          p {
+            font-size: 14px;
+            margin: 0;
+          }
+
+          a {
+            color: $color_link_blue;
+            font-size: 12px;
+          }
+
+          }
+      }
+    }
+  }
 
 }

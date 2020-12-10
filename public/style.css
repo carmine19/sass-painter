@@ -18,6 +18,22 @@ a {
   font-size: 12px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 29px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -78,10 +94,94 @@ header .header_bottom .box-main .box-menu ul li a:hover {
 }
 
 main #hero {
+  background: url("../images/hero-painteressentials-7.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 500px;
-  background: url("../images/hero-painteressentials-7.jpg");
   color: #fff;
+}
+main #hero .container {
+  padding-top: 20px;
+}
+main #hero .container .col-lg-5 .box-main .box-title h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+main #hero .container .col-lg-5 .box-main .box-subtitle {
+  font-size: 22px;
+  margin-top: 20px;
+}
+main #hero .container .col-lg-5 .box-main .box-link ul li {
+  margin-bottom: 10px;
+}
+main #hero .container .col-lg-5 .box-main .box-link ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+main #hero .container .col-lg-5 .box-main .box-link ul li a:before {
+  content: ">";
+  margin-right: 5px;
+  color: gray;
+}
+main #hero .container .col-lg-5 .box-main .box-btn .button {
+  background: #666;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 50px 10px 15px;
+  position: relative;
+  font-size: 14px;
+  width: 200px;
+}
+main #hero .container .col-lg-5 .box-main .box-btn .button span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+main #hero .container .col-lg-4 .box-main {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  position: relative;
+  height: 400px;
+}
+main #hero .container .col-lg-4 .box-main .box-top {
+  position: relative;
+}
+main #hero .container .col-lg-4 .box-main .box-top .box-text p:first-child {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+main #hero .container .col-lg-4 .box-main .box-top .box-text p:last-child {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 14px;
+}
+main #hero .container .col-lg-4 .box-main .box-top .box-text .btn-primary {
+  width: 126px;
+  padding: 5px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+main #hero .container .col-lg-4 .box-main .box-top .box-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+main #hero .container .col-lg-4 .box-main .box-center {
+  padding: 10px 10px 10px 15px;
+  background: #fff;
+  color: #101010;
+}
+main #hero .container .col-lg-4 .box-main .box-center h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main #hero .container .col-lg-4 .box-main .box-center p {
+  font-size: 14px;
+  margin: 0;
+}
+main #hero .container .col-lg-4 .box-main .box-center a {
+  color: #009cff;
+  font-size: 12px;
 }
