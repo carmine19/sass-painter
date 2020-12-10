@@ -186,7 +186,6 @@ main #overview {
 
         h2 {
           font-weight: bold;
-          font-size: 36px;
         }
       }
 
@@ -212,6 +211,34 @@ main #overview {
         }
 
 
+      }
+
+      .box-img {
+        margin-top: 60px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+main #slide {
+  padding-top: 80px;
+  padding-bottom: 55px;
+
+  .col-lg-10 {
+
+    .box-main {
+
+      .box-text {
+        text-align: center;
+
+      }
+
+      .box-content {
+        margin: 20px auto;
       }
 
       .box-img {

@@ -19,11 +19,11 @@ a {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 46px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h3 {
@@ -221,7 +221,6 @@ main #overview .col-lg-10 .box-main .box-text {
 }
 main #overview .col-lg-10 .box-main .box-text h2 {
   font-weight: bold;
-  font-size: 36px;
 }
 main #overview .col-lg-10 .box-main .box-content {
   margin: 20px auto;
@@ -244,5 +243,22 @@ main #overview .col-lg-10 .box-main .box-img {
   margin-top: 60px;
 }
 main #overview .col-lg-10 .box-main .box-img img {
+  width: 100%;
+}
+
+main #slide {
+  padding-top: 80px;
+  padding-bottom: 55px;
+}
+main #slide .col-lg-10 .box-main .box-text {
+  text-align: center;
+}
+main #slide .col-lg-10 .box-main .box-content {
+  margin: 20px auto;
+}
+main #slide .col-lg-10 .box-main .box-img {
+  margin-top: 60px;
+}
+main #slide .col-lg-10 .box-main .box-img img {
   width: 100%;
 }
