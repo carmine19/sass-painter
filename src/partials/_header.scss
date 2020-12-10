@@ -1,0 +1,76 @@
+// header section
+
+header {
+  background: $header_color;
+
+  .header_top {
+
+    .box-main {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 0;
+
+      .box-icon {
+        margin-right: 20px;
+
+        .fas {
+          color: $icon_color;
+        }
+
+        a {
+          margin-left: 8px;
+          font-size: 13px;
+
+          &:hover {
+            color: $secondary_color;
+          }
+        }
+      }
+    }
+  }
+
+  .header_bottom {
+
+    .box-main {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+
+      .box-logo {
+
+        img {
+          width: $width_logo;
+        }
+      }
+
+      .box-menu {
+
+        ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+
+          li {
+
+            a {
+              padding: 10px 25px;
+              color: #fff;
+              font-size: 14px;
+
+              &:hover {
+              text-decoration: none;
+                color: $primary_color;
+                background: $secondary_color;
+              }
+
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

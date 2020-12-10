@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #989898;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+header {
+  background: #101010;
+}
+
+header .header_top .box-main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header .header_top .box-main .box-icon {
+  margin-right: 20px;
+}
+
+header .header_top .box-main .box-icon .fas {
+  color: #0C75BD;
+}
+
+header .header_top .box-main .box-icon a {
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+header .header_top .box-main .box-icon a:hover {
+  color: #fff;
+}
+
+header .header_bottom .box-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header .header_bottom .box-main .box-logo img {
+  width: 100px;
+}
+
+header .header_bottom .box-main .box-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+header .header_bottom .box-main .box-menu ul li a {
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 14px;
+}
+
+header .header_bottom .box-main .box-menu ul li a:hover {
+  text-decoration: none;
+  color: #101010;
+  background: #fff;
+}
+
+main #hero {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
