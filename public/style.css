@@ -271,3 +271,56 @@ main #fixed-bg {
   background-attachment: fixed;
   height: 650px;
 }
+
+main #pillar {
+  padding: 120px 0;
+  background: #222222;
+  color: #fff;
+}
+main #pillar .col-lg-10 .box-main .box-text {
+  text-align: center;
+}
+main #pillar .col-lg-10 .box-main .box-content {
+  margin: 20px auto;
+}
+main #pillar .col-lg-10 .box-main .box-img {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+main #pillar .col-lg-10 .box-main .box-img img {
+  width: 80%;
+}
+main #pillar .row:nth-child(2) {
+  margin-top: 150px;
+}
+main #pillar .row:nth-child(2) .left .box-text {
+  margin-top: 100px;
+}
+main #pillar .row:nth-child(2) .left .box-text .box-title h3 {
+  margin-bottom: 20px;
+}
+main #pillar .row:nth-child(2) .right img {
+  width: 100%;
+}
+main #pillar .row:nth-child(3) {
+  margin-top: 150px;
+}
+main #pillar .row:nth-child(3) .left .box-text {
+  margin-top: 100px;
+}
+main #pillar .row:nth-child(3) .left .box-text .box-title h3 {
+  margin-bottom: 20px;
+}
+main #pillar .row:nth-child(3) .right img {
+  width: 100%;
+}
+
+main #fixed-bg-2 {
+  background: url("../images/fixed-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 650px;
+}

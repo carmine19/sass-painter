@@ -22,3 +22,9 @@
   background: $secondary_color;
   color: $primary_color;
 }
+
+@mixin flex-orizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

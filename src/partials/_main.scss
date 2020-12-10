@@ -258,3 +258,90 @@ main #fixed-bg {
   @include bg-image-fixed(650px)
 }
 
+main #pillar {
+  padding: 120px 0;
+  background: $pillar-bg;
+  color: $secondary_color;
+
+  .col-lg-10 {
+
+    .box-main {
+
+      .box-text {
+        text-align: center;
+
+      }
+
+      .box-content {
+        margin: 20px auto;
+      }
+
+      .box-img {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  .row:nth-child(2) {
+    margin-top: 150px;
+
+    .left {
+
+    .box-text {
+      margin-top: 100px;
+
+      .box-title {
+
+        h3 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .right {
+
+    img {
+      width: 100%;
+    }
+  }
+  }
+
+  .row:nth-child(3) {
+    margin-top: 150px;
+
+    .left {
+
+    .box-text {
+      margin-top: 100px;
+
+      .box-title {
+
+        h3 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .right {
+
+    img {
+      width: 100%;
+    }
+  }
+  }
+}
+
+main #fixed-bg-2 {
+  background: url('../images/fixed-2.jpg');
+  @include bg-image;
+  @include bg-image-fixed(650px)
+}
+
