@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-size: 29px;
+  font-size: 32px;
 }
 
 h3 {
@@ -206,4 +206,43 @@ main #menu-main .box-menu ul li a:hover {
   text-decoration: none;
   background: #fff;
   color: #101010;
+}
+
+main #overview {
+  background: url("../images/intro.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-top: 80px;
+}
+main #overview .col-lg-10 .box-main .box-text {
+  text-align: center;
+}
+main #overview .col-lg-10 .box-main .box-text h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+main #overview .col-lg-10 .box-main .box-content {
+  margin: 20px auto;
+}
+main #overview .col-lg-10 .box-main .box-link {
+  margin-top: 40px;
+}
+main #overview .col-lg-10 .box-main .box-link a {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+}
+main #overview .col-lg-10 .box-main .box-link a:hover {
+  text-decoration: none;
+}
+main #overview .col-lg-10 .box-main .box-link .far {
+  font-size: 20px;
+}
+main #overview .col-lg-10 .box-main .box-img {
+  margin-top: 60px;
+}
+main #overview .col-lg-10 .box-main .box-img img {
+  width: 100%;
 }

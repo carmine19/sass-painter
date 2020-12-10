@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b8b22a-d61e-4211-8454-10773faa067c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/over.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607606150899</updated>
       <workItem from="1607606154202" duration="6703000" />
-      <workItem from="1607617009124" duration="6210000" />
+      <workItem from="1607617009124" duration="7713000" />
     </task>
     <task id="LOCAL-00001" summary="push codice, errore sul bg">
       <created>1607617071156</created>
@@ -85,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607621207553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="push main-menu section">
+      <created>1607623744736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607623744736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +116,7 @@
     <MESSAGE value="push codice, errore sul bg" />
     <MESSAGE value="push codice, errore sul bg 2" />
     <MESSAGE value="push hero section" />
-    <option name="LAST_COMMIT_MESSAGE" value="push hero section" />
+    <MESSAGE value="push main-menu section" />
+    <option name="LAST_COMMIT_MESSAGE" value="push main-menu section" />
   </component>
 </project>

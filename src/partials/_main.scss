@@ -170,3 +170,58 @@ main #menu-main {
 
   }
 }
+
+main #overview {
+  background: url('../images/intro.jpg');
+  @include bg-image;
+  color: $secondary_color;
+  padding-top: 80px;
+
+  .col-lg-10 {
+
+    .box-main {
+
+      .box-text {
+        text-align: center;
+
+        h2 {
+          font-weight: bold;
+          font-size: 36px;
+        }
+      }
+
+      .box-content {
+        margin: 20px auto;
+      }
+
+      .box-link {
+        margin-top: 40px;
+
+        a {
+          font-size: 18px;
+          color: $secondary_color;
+          margin-left: 10px;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        .far {
+          font-size: 20px;
+        }
+
+
+      }
+
+      .box-img {
+        margin-top: 60px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
